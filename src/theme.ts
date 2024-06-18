@@ -3,16 +3,17 @@ import { createTheme, responsiveFontSizes } from "@mui/material";
 let theme = createTheme({
     palette: {
       primary: {
-        main: '#ececec',
+        main: '#0e0e10',
       },
       secondary: {
-        main: '#3d4affb8',
+        main: '#713112',
       },
     },
     typography: {
         fontFamily: [
           "Roboto",
-          "Agency FB"
+          // "Agency FB",
+          "Sans"
         ].join(','),
     }
   });
